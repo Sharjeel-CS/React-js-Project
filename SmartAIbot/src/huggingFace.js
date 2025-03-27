@@ -5,7 +5,7 @@ import { prevUser } from "./context/UserContext";
 		"https://router.huggingface.co/hf-inference/models/stabilityai/stable-diffusion-xl-base-1.0",
 		{
 			headers: {
-				Authorization: "Bearer hf_Your authorization key",
+				Authorization: "Bearer :API key",
 				"Content-Type": "application/json",
 			},
 			method: "POST",
